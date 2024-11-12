@@ -44,11 +44,11 @@ refine has connectors for 15+ backend services, including REST API, [GraphQL](ht
 ## Installation & Usage
 
 ```
-npm install @refinedev/postgrest
+npm install @ffimnsr/refine-postgrest
 ```
 
 ```tsx
-import { dataProvider, createClient } from "@refinedev/postgrest";
+import { dataProvider, createClient } from "@ffimnsr/refine-postgrest";
 
 const postgrestClient = createClient("POSTGREST_INSTANCE_URL");
 
